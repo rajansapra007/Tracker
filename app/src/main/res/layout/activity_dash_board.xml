@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajan.keepsignedin.DashBoard">
+
+    <Button
+        android:id="@+id/listbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="List" />
+
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listbtn"
+        android:layout_alignStart="@+id/listbtn"
+        android:layout_below="@+id/listbtn"
+        android:layout_marginTop="55dp"
+        android:text="Alert" />
+
+    <Button
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alert"
+        android:layout_alignStart="@+id/alert"
+        android:layout_below="@+id/alert"
+        android:layout_marginTop="58dp"
+        android:text="Track" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/track"
+        android:layout_alignRight="@+id/track"
+        android:layout_below="@+id/track"
+        android:layout_marginTop="49dp"
+        android:text="Logout" />
+</RelativeLayout>

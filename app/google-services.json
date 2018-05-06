@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "917812249250",
+    "firebase_url": "https://keepsignedin-9dd31.firebaseio.com",
+    "project_id": "keepsignedin-9dd31",
+    "storage_bucket": "keepsignedin-9dd31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917812249250:android:5dff7cf640e0c179",
+        "android_client_info": {
+          "package_name": "com.example.rajan.keepsignedin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917812249250-b9r5inr6i31ag32v2fn7sdtc4ptqi11p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajan.keepsignedin",
+            "certificate_hash": "c79ab2eff190167d4ae6467fbb9dc11422009492"
+          }
+        },
+        {
+          "client_id": "917812249250-1bebhj5r7j68elrjfj9qaes5aghpjr0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfuutLRhM0yvpZb6REqaj7sFFomnDTOSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917812249250-1bebhj5r7j68elrjfj9qaes5aghpjr0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
